@@ -44,7 +44,7 @@ class CustomTextFormField extends StatelessWidget {
     return TextFormField(
       readOnly: readOnly ?? false,
       obscureText: obscureText,
-      style: AppTextStyles.fontWhite17W500.copyWith(color: Theme.of(context).colorScheme.primary),
+     // style: AppTextStyles.fontWhite17W500.copyWith(color: Theme.of(context).colorScheme.primary),
       textInputAction: TextInputAction.next,
       validator: validator,
       controller: controller,
@@ -64,8 +64,8 @@ class CustomTextFormField extends StatelessWidget {
         isDense: true,
         hintText: hintText,
         labelText: labelText,
-        labelStyle: AppTextStyles.fontWhite17W500.copyWith(color: Theme.of(context).colorScheme.primary),
-        hintStyle: AppTextStyles.fontWhite17W500.copyWith(color: Theme.of(context).colorScheme.primary),
+      //  labelStyle: AppTextStyles.fontWhite17W500.copyWith(color: Theme.of(context).colorScheme.primary),
+     //   hintStyle: AppTextStyles.fontWhite17W500.copyWith(color: Theme.of(context).colorScheme.primary),
         contentPadding:
              EdgeInsets.symmetric(vertical: 16.h),
         filled: true,

@@ -30,7 +30,7 @@ class CustomMaterialButton extends StatelessWidget {
         children: [
           Text(
             label,
-            style: AppTextStyles.fontBlack21W500.copyWith(color: Theme.of(context).primaryColor),
+           // style: AppTextStyles.fontBlack21W500.copyWith(color: Theme.of(context).primaryColor),
           ),
            SizedBox(width: 10.w),
         ],

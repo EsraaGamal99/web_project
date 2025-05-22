@@ -7,7 +7,9 @@ ScaffoldFeatureController<SnackBar, SnackBarClosedReason> showSnackBar(
     [Color? backgroundColor]) {
   return ScaffoldMessenger.of(context).showSnackBar(
     SnackBar(
-      content: Text(errorMessage, style: AppTextStyles.fontWhite13W400,),
+      content: Text(errorMessage,
+       // style: AppTextStyles.fontWhite13W400,
+      ),
       backgroundColor: backgroundColor ?? Colors.red,
     ),
   );
