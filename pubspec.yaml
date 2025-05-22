@@ -18,6 +18,7 @@ dependencies:
 
   # Responsive Design
   flutter_screenutil: ^5.9.0
+  responsive_builder: ^0.7.1
   # An SVG library for rendering painting
   flutter_svg: ^2.0.10+1
 
@@ -34,20 +35,19 @@ dependencies:
   flutter_bloc: ^8.1.5
 
   #FireBase
-  firebase_core: ^2.29.0
+  firebase_core: ^2.32.0
   firebase_auth: ^4.19.1
   cloud_firestore: ^4.16.1
 
+  google_fonts: ^6.2.1
   #A package which simplifies the task of updating your Flutter app's launcher icon
   flutter_launcher_icons: "^0.13.1"
 
-#  flutter_launcher_icons:
-  #  android: "launcher_icon"
-  #  ios: true
-  #  image_path: "assets/images/app_icon.jpg"
 
 
   cupertino_icons: ^1.0.8
+  firebase_app_check: ^0.2.2+7
+  rename_app: ^1.6.3
 
 dev_dependencies:
   flutter_test:
@@ -92,3 +92,15 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo_image.png"
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/images/logoipsum-332 1.png
+  android: true
+  ios: true
+  web: true
+  web_image_mode: center
